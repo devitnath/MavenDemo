@@ -41,6 +41,8 @@ jobs:
       run: mvn clean
     - name: Package POM
       run: mvn package
+    - name: Execute Jar
+      run: mvn exec:java
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
   
