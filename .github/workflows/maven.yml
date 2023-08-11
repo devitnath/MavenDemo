@@ -47,7 +47,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with: 
           name: maven-demo-artifact
-          path: target/MavenDemo-1.0-SNAPSHOT.jar
+          path: target/MavenDemo.jar
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
   
