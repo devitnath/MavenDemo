@@ -37,6 +37,10 @@ jobs:
       run: mvn compile
     - name: Test POM
       run: mvn test
+    - name: Clean POM
+      run: mvn clean
+    - name: Package POM
+      run: mvn package
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
   
